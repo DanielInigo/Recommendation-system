@@ -1,0 +1,70 @@
+/* Styling for the form inputs */
+input[type="text"] {
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .heading{
+    margin-top: 1.5rem;
+    margin-left: 35%;
+    color: #fff;
+  }
+
+  .container{
+    margin-top: 3%;
+    margin-left: 7%;
+    border: black;
+    border-radius: 2%;
+  }
+
+  #res{
+    position: fixed;
+    margin-top: 6%;
+    margin-left: 28%;
+    top: 130px;
+    left: 500px;
+    height: 20rem;
+    width: 300px;
+  }
+
+  #navbarnt{
+    margin-left: 55%;
+    font-size: large;
+  }
+
+  body {
+    background-image: url("se1.jpeg"); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: rgba(144, 130, 130, 0.2);
+  }
+  
+  /* Styling for the Store Data button */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Animation for the button when clicked */
+  @keyframes buttonAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply animation to the button */
+  button:focus {
+    animation: buttonAnimation 0.5s;
+  }
+  
